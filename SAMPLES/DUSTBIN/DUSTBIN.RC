@@ -1,0 +1,85 @@
+(****************************************************************************)
+(*
+   DustBin V0.05a (DustBin.RC)
+   ==============
+   
+   Programmierer: Alexander Graf (Mat.Nr. 9355752)
+                  Dietmar Schinnerl (Mat.Nr. 9355075)
+   Projekt: Fallstudie Betriebssysteme: Windowsprogrammierung mit Oberon-2
+   Compiler: POW! Oberon-2
+   
+                           (C) by Alexander Graf & Dietmar Schinnerl, 1996
+                                                                            *)
+(****************************************************************************)
+
+DEFINITION DUSTBIN;
+
+
+INCLUDE "C:\POW\SRC\WINDOWS.MOD"
+INCLUDE "DUSTBINW.MOD"
+INCLUDE "OPTIONS.MOD"
+
+
+RESOURCE
+
+
+ ICON DustbinIcon "DUSTBIN.ICO"
+ ICON DustbinIconF "DUSTBINF.ICO"
+
+
+ MENU DustBinMenu
+  POPUP "&DustBin"
+   MENUITEM "&Options...", IDM_DUSTBIN_OPTIONS
+   MENUITEM "&Empty DustBin", IDM_DUSTBIN_EMPTY
+   MENUITEM "&Kill selected file", IDM_DUSTBIN_KILL
+   MENUITEM "&Restore all files", IDM_DUSTBIN_RESTORE
+   MENUITEM "Restore &selected file", IDM_DUSTBIN_RESTORESEL
+   MENUITEM "&Quit",  IDM_DUSTBIN_QUIT
+  END
+  POPUP "&?"
+   MENUITEM "&Help",  IDM_HELP_HELP
+   MENUITEM "&About...", IDM_HELP_ABOUT
+  END
+ END
+ 
+
+ DIALOG About 0, 0, 200, 70
+  STYLE DS_MODALFRAME OR WS_POPUP OR WS_VISIBLE OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "About Dustbin"
+  FONT 8, "MS Sans Serif"
+  BEGIN
+   DEFPUSHBUTTON "Empty Me!", IDOK, 70, 50, 60, 14
+   CTEXT "Dustbin V0.03a", DLGC_STATIC, 50, 10, 100, 18
+   CTEXT "(C) by Alexander Graf and Dietmar Schinnerl, 1996", DLGC_STATIC, 0, 29, 200, 8
+  END
+  
+
+ DIALOG Options 2, 0, 202, 93
+  STYLE DS_MODALFRAME OR WS_POPUP OR WS_VISIBLE OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "Options"
+  FONT 8, "MS Sans Serif"
+  BEGIN
+   CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 146, 8, 50, 14
+   CONTROL "Cancel", IDCANCEL, "BUTTON", BS_PUSHBUTTON OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 146, 32, 50, 14
+   CONTROL "Notify on file deletion", IDC_NotifyFileDel, "BUTTON", BS_AUTOCHECKBOX OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 8, 8, 82, 12
+   CONTROL "Notify on directory deletion", IDC_NotifyDirDel, "BUTTON", BS_AUTOCHECKBOX OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 8, 24, 102, 12
+   CONTROL "Sound support", IDC_SoundSupport, "BUTTON", BS_AUTOCHECKBOX OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 8, 56, 70, 12
+   CONTROL "Notify on deletion of read only file", IDC_NotifyReadOnly, "BUTTON", BS_AUTOCHECKBOX OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 8, 40, 122, 12
+   CONTROL "Start as symbol", IDC_StartSymbol, "BUTTON", BS_AUTOCHECKBOX OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 8, 72, 70, 12
+  END
+
+
+ DIALOG Setup 0, 0, 187, 90
+  STYLE DS_MODALFRAME OR WS_POPUP OR WS_VISIBLE OR WS_CAPTION
+  CAPTION "Dustbin Setup"
+  FONT 8, "MS Sans Serif"
+  BEGIN
+   CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 128, 68, 50, 14
+   CONTROL "Listbox1", IDC_LISTBOX, "LISTBOX", LBS_STANDARD OR LBS_HASSTRINGS OR WS_CHILD OR WS_VISIBLE OR WS_HSCROLL OR WS_TABSTOP, 8, 8, 104, 76
+   CONTROL "Choose the drive, on which the deleted files shall be stored.", -1, "static", SS_LEFT OR WS_CHILD OR WS_VISIBLE, 120, 8, 60, 50
+  END
+  
+END DUSTBIN.
+
+(****************************************************************************)
+

@@ -1,0 +1,1016 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f1\froman\fcharset2\fprq2 Symbol;}{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f5\fswiss\fcharset0\fprq2 Arial;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar \f4\fs20\lang2057 \snext0 Normal;}{\s1\fi-283\li283\keepn\nowidctlpar{\*\pn \pnlvl10\pndec\pnstart1\pnindent283\pnhang{\pntxta .}}\f4\fs32\lang2057 
+\sbasedon0\snext0 heading 1;}{\s2\sb240\sa60\keepn\nowidctlpar \b\i\f5\lang2057 \sbasedon0\snext0 heading 2;}{\s3\qc\keepn\nowidctlpar \b\f4\fs32\lang2057 \sbasedon0\snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{\s15\qc\nowidctlpar 
+\f4\fs32\ul\lang2057 \sbasedon0\snext15 Title;}{\s16\nowidctlpar\tqc\tx4320\tqr\tx8640 \f4\fs20\lang2057 \sbasedon0\snext16 footer;}{\*\cs17 \additive\sbasedon10 page number;}{\s18\qj\fi-3600\li3600\nowidctlpar\tx3600 \f4\fs22\lang1024 \sbasedon0\snext18 
+Body Text 2;}{\s19\qj\nowidctlpar\tx0 \f4\fs22\lang1024 \sbasedon0\snext19 Body Text;}{\s20\nowidctlpar \f4\fs16\lang2057 \sbasedon0\snext20 Body Text 21;}}{\info{\title COURSE }{\author Lee Myring}{\operator Lee}{\creatim\yr1999\mo1\dy10\hr16\min28}
+{\revtim\yr1999\mo1\dy10\hr16\min28}{\printim\yr1999\mo1\dy10\hr17\min46}{\version1}{\edmins17}{\nofpages19}{\nofwords5250}{\nofchars29930}{\vern49213}}\paperw11906\paperh16838 \widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd 
+\linex0\headery709\footery709\colsx709\endnhere\titlepg {\footer \pard\plain \s16\nowidctlpar\tqc\tx4320\tqr\tx8640\pvpara\phmrg\posxr\posy0 \f4\fs20\lang2057 {\field{\*\fldinst {\cs17 PAGE  }}{\fldrslt {\cs17 6}}}{\cs17 
+\par }\pard \s16\ri360\nowidctlpar\tqc\tx4320\tqr\tx8640 
+\par }{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 \f4\fs32\ul\lang2057 
+
+\par \pard \s15\qc\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 MATH0109 FORMAL METHODS
+\par AND PROGRAMMING
+\par 
+\par 
+\par \pard\plain \qc\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 \f4\fs20\lang2057 {\fs32 CONCORDANCE 
+\par PROGRAM
+\par }\pard \nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 {\fs32 
+\par 
+\par }\pard \qc\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 {\fs32 LEE MYRING
+\par }\pard \nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 
+\par 
+\par 
+\par \pard \nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 \tx720\tx7560\tx8190 
+              January 1999                                                                                 MSc Computer Science
+\par \pard \nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 \tx8190 
+\par \pard \qc\nowidctlpar {\fs24 
+\par 
+\par 
+\par 
+\par }\pard\plain \s3\qc\keepn\nowidctlpar \b\f4\fs32\lang2057 {\b0\fs48 
+\par 
+\par Department of Mathematical Sciences
+\par }\pard\plain \qc\nowidctlpar \f4\fs20\lang2057 {\fs48 Computing Group
+\par }\pard \nowidctlpar\pvpara\phpg\posx4608\posy334\absh2590\absw2596\dxfrtext180\dfrmtxtx180\dfrmtxty0 {\lang1024 {\pict\wmetafile8\picw8327\pich8504\picwgoal4721\pichgoal4821 \picscalex54\picscaley52 
+010009000003580f00000000360f000000000400000003010800050000000b0200000000050000000c02f100ec000400000007010400360f0000430f2000cc000000f100ec0000000000f100ec000000000028000000ec000000f10000000100010000000000201e0000120b0000120b0000020000000200000000000000ff
+ffff00fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000fffffffffffffffffffffffffff810000fffffffffffffffffffffff
+fff00000ffffffffffffffffffffffffff80000000fffffffffffffffffffffffff09000fffffffffffffffffffffffffc000000003ffffffffffffffffffffffff00000ffffffffffffffffffffffff000000000000003ffffffffffffffffffff00000fffffffffffffffffffff800000000000000000fffffffffffffff
+fffff00000ffffffffffffffffffffc0000000000000000000fffffffffffffffffff00000fffffffffffffffffffe0000003800fe000000003ffffffffffffffffff00000fffffffffffffffffff0000000783fff800000000ffffffffffffffffff00000ffffffffffffffffff80000000fc7fff8000780003ffffffffff
+fffffff00000ffffffffffffffffff00000001ffffff83ffffc000fffffffffffffffff00000fffffffffffffffffe0003f001fffffffffffff0003ffffffffffffffff00000fffffffffffffffff8000ff001fffffffffffffcc00ffffffffffffffff06e30ffffffffffffffffc0007ff003ffffffffffffffc007ffffff
+fffffffff06f30ffffffffffffffff0003ffe003ffffffffffffffe001fffffffffffffff00000fffffffffffffff8003fffe007fff03ffffffffffc00fffffffffffffff00000ffffffffffffffe000ffffe00ffc000007ffffffff003ffffffffffffff00000ffffffffffffffc007ffff801fe0000000003fffffc01fff
+fffffffffff00000ffffffffffffff801ffffe003fc00000000000fffff00ffffffffffffff00000ffffffffffffff803ffff8003fc00fffffff000ffffc03fffffffffffff00000fffffffffffffe00ffffc0007fc00ffffffff000fffe01fffffffffffff00000fffffffffffff801ffff01c07fc00fffffffffe01fff80
+7ffffffffffff00000fffffffffffff007fffc07e07fc007ffe7fffff807ffe07ffffffffffff00a00ffffffffffffc00ffff00fe0ffc003ffe007ffff01fff03ffffffffffff00000ffffffffffff001fff801fc0ff80007fe0003fffc03ffc1ffffffffffff00000fffffffffffc007ff8001f80ff80003ff80007fff00f
+fe01fffffffffff00000fffffffffff800ffc0000000ff000007fe0000fffc01ff01fffffffffff00000fffffffffff801ff80000001ff070001ff8000fffe00ff00fffffffffff00000fffffffffff003ff0fc00001ff3ff0003ffc007fff00ff80fffffffffff00000ffffffffffe01ffe1fff0001ffbfff001fff80ffff
+007fc0fffffffffff02000ffffffffff803ff81fffc001ff9ffff007ffe0e07fc03ff0fffffffffff00a00ffffffffff00ffe01ffff000ffdffffc01ffe1c03ff81ff007fffffffff00000fffffffffe01ff800ffff000ffcfffff003ff1c01ff80ff803fffffffff00000fffffffffc03ff0001fff0007fefffffc1ffffc0
+03fa00f801fffffffff00000fffffffffc0ffe00001ffc007ff7ffffe7fcff8001ff807e00fffffffff00000fffffffff81ff800000fff80fff7fffffff87f8e00f7807f007ffffffff00000fffffffff03ff000001ffff8fff1fffffff07f9fe0f7c03f803ffffffff00000ffffffffe03fe000003ffffe7ffcfdfffff1ff
+3ff0f7e03fc01ffffffff00000ffffffffc07f8000007ffffe7ffe003fffc7ff7ff0f7f07fc00ffffffff00000ffffffffc0ff000600ffffff3fff801fff0ffefff0e7f87fc207fffffff00000ffffffff81fe001f00ffffff1fffc003f81ffcffc003fc7fc703fffffff00000ffffffff81f8007e01ffffff8fff8000003f
+f8fc0003fc7fc781fffffff00000ffffffff03f001fe07ff9fffc7ff8000807f00fc0001fc7fc781fffffff00000fffffffe07e003fc0fff0fffe3fc000ff87e61fc0001fc3fefc0fffffff00000fffffffc0fc007f81fff0ffff8f0007ff079e1fc0001fc3fffe0fffffff00000fffffff80f800ff03ffc0ffffe0001ffc0
+03c3fc0001fc3ffff07ffffff00000fffffff00f001ff03ff807fffe0007fe000fc7fc0003fc1ffff07ffffff00000ffffffe000003fe07ff001ffff001ff0001fc3dc0007fc1ffff03ffffff00000ffffffc00000ffc0fff060fffc003fc03fffc000380ffc1fff001ffffff00000ffffffc00001ff80ff81f03fff007f00
+ffff80003ffff81fff000ffffff00000ffffff800007ff80ff81f00fff007e03ffff80003ffff81fff0007fffff08130ffffff00001fff00ff81f803fe007c0fffff00000ffff01fff3807fffff00000ffffff000ffffe00ff03f8007800f81ffffe000007ffe01ffe7803fffff00000fffffe003ffffc01fe03f8000000f8
+3ffffc000001ffc01ff87801fffff00000fffffc003ffff801fc03f803f803f07ffff001fc007fc01ff07c08fffff09000fffff8003ffff001fc03c0cfff03f0ffff800fffe000001ff07c1cfffff00000fffff8003fffe001fc03e1ffffe3e1fffc003ffff800001ff0fc1c7ffff00000fffff0003fffc07ff003f1fff83b
+c1fff8007ffffe00001fe0fc3e3ffff00000ffffe0001fff807fe003fffff81cc3fff800ffffff98001fe0fc3f3ffff00000ffffc0000fff00ffc001fffff80e03fff801fffffffe001fc1fc3f1ffff00000ffffc0060ffe00ffe000fffff80707fff801fffffffc00ffc1f83f8ffff00000ffff80070ff001fff8003fffc0
+0107fffc01fffffffc01ffc1f83fcffff00000ffff8007800001fff800007fc0018ffffc03ffffffe081ffc1f83fc7fff00000ffff0007800001fffc00003fc07f9ffff807fffffe01c3ffc1f81fe3fff00000ffff0007c00003fffc00001fc07ffffff83fffc00003e3ffc1fc1fe3fff00000fffe0003e00003fffc00080f
+803ffffff83fff000003e3ffc1fc1fe3fff00000fffe0003e00003fffe01ff0783fffffff03ffe000003e3ffc1fc1fe1fff00000fffc0001f00003fbff83ffe307fffffff03ffc000007c3ff81fc0ff1fff00000fffc0081f80007f1fff3ffff07fffffff07ffc0000df9fff81fc3ff1fff00000fffc00c1fc0007f1ffffff
+ff8fffc07fe0fff8003fff3fff80fc3ff1fff00000fff800e0fe0007f1ffffffff8fff807fe0ffb8003ffe7fff9cfc3fe1fff00000fff800e0ff0007fbffffffffffff03ffc0fe00387ff8c3ff9efc3fe07ff00000fff001e0ff800ffbfffffffffffe0fffc0000078ffe181fffe7c1ff07ff00000fff003f07fc00ff9ffff
+fffffffe7fffc00000f8ff8781fffefe1ff03ff00000fff01ff0ffc00ff803ffffffffffffff800000f9ff0f01fffefe3ff03ff00000fff01ff0ffe01ffc001ffffe7fc7ffff800000f9fe0f19fffcfe3ff03ff00000fff01ff8ffc01ffc0003fffc3f0fffff800000fffe0f1ffffcfe3fe03ff00000ffe00ff83fc01ffe7f
+e01ffc3c1fffff800000fffc1f1ffff8fe3fe03ff00000ffe00ff83ff01ffe7ff001f8003fffff0000007ffc1ffffff8fe3fc00ff00000ffc007fc3ffc1fff7ffc006001fffffe0000007ffc1ffffff1fe3f800ff00000ffc007fc7fff0fffbffe000001fff1e00000f03ffc3fffffc1fe3f800ff00000ff8003fe7fff8fff
+bffe000000ffc0000001fc0ffc7fffff03fe7f000ff00000ff8003ff3fff8fffdffe0000000000000007fc07fcffff0403fc7f000ff00000ff0007ff3fff8fffdffe000000000000000ffc03f9fff00007fcfe000ff00000ff0007ff1fffcfffc7fe00700000000c001ffc03f9ffc0001ffdfe000ff00000ff0007ff9fffc7
+ffc1fe01f80000001e003ffe01f9ff00003ff9fc000ff04f30ff0003ff9fffc3ffe0fe03ff000000fe007ffe01f9fe0000fff1f8060ff00000fe0001ff8fffe3fff0fe07ff000007fe007f8f11f8700007fff1f00f8ff00000fe0001ff8fffe1fff8fe0fff00001ffc07ff0f31f800003fffe1e01f8ff00000fe0000ffcfff
+e1ffffff1fff00001ffc07fe0ff0700fffffffc0003f8ff00000fc00007fcfffe0ffffff1fff03003ff807fc0fe0003fffffff8001ff8ff00000fc00007fe7fff0ffffff0c3f0f803ff807f80fe0003fffffff002ffc0ff00000fc00003ff3ff007fffff801f1fc03ff80ff03fe00000fffffe00fff807f00000fc00001ff1
+ff007fffff801fdfc01ff00fe03fe00000fffff803fff007f00000fc00001ff9ffc07fffff801fffc001f00fc03ff80001ffffe00ffff003f00000f800000ff87ff03fffff001fffc000400f803ff80001ffffc00fffe083f00000f8000003fc3ff03ffffe0003ffe000000f007ff80001ffff839fffc1c3f00000f8000000
+fc1ff81f8ffe00007fe000000e007ff80001fffe03ffff83e3f00000f80000001c0fe0000ffc00007fc000000000fff8003ffff801ffff83fff00000f0000000000000000ff000003fc000000003fffc007ffff80fffff07fff00000f0000000000003e00fc000063f8000000007fffc00fffffe07fffe07fff00000f00000
+00001effffc000000fbf000000000ffffc00ffffff7ffffc07fff00000f0000f3f801ffffff800001ffe000000001ffffc00c7fffffffff00ffff00000e0001ffff00ffffffc0000ffff000000003ffffe000fffffffffe00ffff00000e0000ffff007fffffe0001ffff800101e07ffffe007ff03fffff801ffff00000e000
+0fffff03ffffff0003ffffc003e3e0fffffe01ff800fffff003ffff00000e0000fffffc1ffffff8007ffffe007ffc1fffffe01fe0003fffe003ffff00000e00007ffffe0ffffffc00ffffff007ffc3fffffe01f800007ff8003e7ff00000e00003fffff83fffffc01ffffff007ff83fffffe00000000030000181ff00000e0
+0001fffffc07ffffe01ffffff80fff87ffffff00000000000070301ff00000e00000fffffe01ffffe03ffffff83fff87fffffe0003c0000601f0301df00000c000003ffffc003fffe03ffffff01bff8ffffffe0003e3e007fff0703cf00000c000001ffffc0007ffe03ffffff003fffffffffe0003fffc07ffe03078f00000
+c000000ffffc00001fe03ffffff001fffffffffe0001ffff87ffe03078f00000c0fc0003fffc000001803ffffff801fffffffffe0000ffffffffe07030f00000c07f8000fff0000000003ffffffc01fffffffffe0003ffffffffc1f030f00000c03fe0000000000000001fffff7803ffffffffff0007ffffffffc7e0607000
+00c00ff80000000007c4001ffe30f007ffffffffff0003ffffffff87e0e0700000c003fc00001c1837ef803ffffff807ffffffffff0000ffffffff07e0c0700000c0007ffc3ffc3c7fffc03f9ffffc07ffffbfffff00007fffffff0fc1c0700000c0001ffffffc1f7fffc03c3ffffe07fffc01ffff80007fffffff0f8180f0
+0000e0000ffffff81fffffc0383f00fe03fff00078ff800fffffffff0f8300f00000e00007fffff81fffffe000007e3f03ffe3fe20ff800fffffffff0f0000f00000e00081fffff00fffffe00001ffbf81ffc7ff00ff800ffffffffe0c0000f00000e001c0ffffe000ffffe00003f3df81ff878f81ff800ffffffffe000000
+f00000e001c0fffe00807fffe00003e3ff83ff0f8f83ff800007fffffc000003f00000e001c0ff000fe07fffe00003e1ff03fe078f07ff800001ffffe000001ff00000f001c07b007ffc1fffe00001f3ef03fe07cf1fff8000007fff800000fff00000f001c27fffffff1fffe01f01f3cc03fc01c007ff8000003fff80000f
+fff00000f001e67bffffff9fffe07f80600003f8000007ff0000007fff80007ffdf00000f003e779ffffff9ffff07fc0000003f0000007ff000001fe00003ffc78f00000f003e7787fffff81fff0ffc0000007e0000e0fff000003f800007ff8f0700000f003e3fc1fff9fc0fff0ffe0000003e0000007fe00c007f000003f
+f8f0300000f007e3fc07f81fc0fff07fe0000003c0000007fe00f81fe000003ff0f0700000f007e3fc00001fe08ff07fe000000380000003ff80fe7fc03e001ff0e0700000f007e3f000001fff83f03fe000000100000003ffc0ffff007f803ff0e0700000f007f3e000001fff07f01ff000000000000801ffc00ffe00ff80
+fff0e0700000f003f3c000021c7f07e00ff00000000007ff81ffc001f800fffffff0c0700000f003f3c0000e1c0007c007c0000000003fffffffc00000007ffffce0c0f00000f003f180003f1c000e003003ffc00000ffffffffc00000007ffff8e0c0f00000f0038000007f0e001c003f1ffff80003ffffffff800000c07f
+fff0e080f00000f801c00000ff8e0038080ffffffe000fffffffff800000307fffe0e080f00000f801c00000ff8e00f03801ffffffc03fffffffff0000003f7fffc1c180f00000fc01800001ff9f81e078001ffffff0ffffffffff0040001fffffc1c181f00000fc00000003ffffffc0f0001ffffffffffffffffe00300017
+fff8c1c101f00000fc00000003ffffff01f0001ffffffffffffffffc00000003fff0c38301f00000fc00000007fffffe03f0183ffffffffffffffffc0001c003c7f1838703f00000fc00000007fffffe07e0073ffffffffffffffff80000f803c7e1870603f00000fe0000000ffffffc0fe001fffffffffffffffff800007e
+0387c3060e07f00000fe0000001ffffff81fc000fffffffffffffffff000000f038783061e07f00000fe0000003ffffff03f80003ffffffffffffffff000000f8307820c1c07f00000fe0000003fffffe07f00003fffffffffffffffe000000f8306061c3007f00000ff0000003fffffc0fe00003fffffffffffffffc00000
+07c30800186007f00000ff0038003fffff80fc00003fffffffffffffffc0038003e6080030600ff00000ff003c003fffff01f801fc1fffffffffffffff8001c000fc018060e01ff00000ff001f007ffffe03f007ff1fffffffffffffff00007980f80380c1e01ff00000ff801ffffffffc07e01fff1ffffffffffffffe0000
+3fc0f8078783e03ff00000ff801ffffffff807e03fff1ffffffffffffffe00003fc0f80f8f07e07ff00000ff801fffffffe00fc07fff1fffffffffffffff80041fc0f01f1e0ce07ff00000ffc00fffffff800fc07ffc3ffffffffffffffff00f3fe0701f1c10e07ff00000ffc00f9ffffe001f80ffe01ffffffffffffffdfc
+0fffe0703e3c30e07ff00000ffc0079ffffc001f00ff8000ffffffffffffe007ffffe0383e3860c07ff00000ffe0079ffff8001f01fe00003ffffffffffe0007fffff07c3c78e1c0fff00000ffe007cffff8001e01fc00001ffffffffff8000ffffff07c3cf8c1c0fff00000fff003cf9e78003e01f8000007fffffffff000
+0f3ffff07e78f1c180fff00000fff003ef8f7c003e01f0000003ffffffffc000071e1ff87c71f18180fff00000fff801e7c73e003e03e0200001ffffffff0000021e0ff87c21e18300fff00000fff801f7c79e003e07e0600000fffffffe0000000e07f81c01e30301fff00000fffc00f3e39f003c0fe0e00000fffffffc00
+00000f03f81801c00303fff00000fffc00fbf3cf803c0fc1c000007ffffff80002010701f81800c00703fff00000fffe0079f1ef803c0fc1c000003ffffe000001010700f8103c040707fff00000fffe007df9e7c03c0fc1c0000003fffc0000010703807c183c0f060ffff00000ffff003cfcf3e03c0f81c00000007ff000
+00018703c07c1c3c0f060ffff00000ffff003efcfbe03c0f83800000001fe00000090781c07c1e3c0f060ffff00000ffff801e7e79e03e0f838000000007c000001f8f81c03c1e3c0f040ffff00000ffff801f7f3df03e078380000000078000000f8f81801c1c3c0e3c1ffff00000ffffc00f7f3cf03e0703800080001f00
+000007ffc0800c1c0000381ffff00000ffffc00fbf9ef83e0707800100003f00000003ffc0c00c180080781ffff00000ffffe007bf9e703e0f07800200007e00000003ffc1c01e1801f0703ffff00000ffffe0079fcf003e1f0780060000fe00300001ffe1e07e0803f0703ffff00000fffff0019fcf003e1f07800c0001fc
+00781001ffe0e07e08f860607ffff00000fffff000cfe7803f1e0f801c0003f800fc1800ffe0f03e0ff000607ffff00000fffff80007e3803f1e0f80380007f000fe1c00ffe0f83e0fc00040fffff00000fffff80007f1c03f1e0f80380007f000ff1e20fff0781e0fc00781fffff00000fffffc0003f0c01f1e0f8038000f
+e000ff9e207ff0781e0fc01f03fffff00000fffffc0003f8001f9c0f8030001fe000fffe007ff07c3e07c3b803fffff00000fffffe0001f8001f9c0f8030003fc000ffff107ff03c3e06070007fffff00000ffffff0000f8001f9c1f8060003fc000ffff107ff03c1e0606000ffffff00000ffffff00007c001f981f806020
+3fc0007fff103ff83e0e0700001ffffff00000ffffff80007c001fb81f8060303f80007fff103ff81e0e0700001ffffff00000ffffff80003e001fb81f81e0303f80007fff103ff81e078380001ffffff00000ffffffc0001e000ff01f81c0783f80007fff081ff81f03c3c0003ffffff00000ffffffe0000c000ff01f81c0
+783f80003fff081ff81f03c1e0003ffffff00000fffffff0000c000ff01f81c0387f84003fff8c1ff81f01e1f8007ffffff00000fffffff80000001fe03fc1c0387f84003fff8e1ffc1f81f0fc007ffffff00000fffffffc0000001fe03fc380387f86001fff860ffc0f80f9fe00fffffff00000fffffffe0000001fc03fc3
+80387b8e001fff870ffc0fc0fffe01fffffff00000fffffffe0000001fc03fc38038780e001fff878ffc0fc03ffc03fffffff00000ffffffff0000003f803fc38038790e020fff87fffe0fc01ff803fffffff00000ffffffff8000003f803fc30038790e020fff87fffe0fe007f007fffffff00000ffffffffc000007f007f
+c301f8790f030fff83fffe0fe000e00ffffffff00000ffffffffe00000ff007fc301f8710f0307ff83fffe0ff000001ffffffff00000fffffffff00000fe007fc201f8718f0387ff83ffff0ff000003ffffffff00000fffffffff80003fc00ffc201fc01870383ff83ffff07f800007ffffffff00000fffffffffc000ff800
+ffc200fc018781c3ffc3ffff07fc00007ffffffff00000fffffffffe03fff001ffc200fc018781c3ffc1ffff83fc0000fffffffff00000ffffffffff07ffe001ffc200fc018381e1ffc1ffff81fe0001fffffffff00000ffffffffff87ff0003ffc600fc0183c1e1ffc1ffffc1ff0003fffffffff00000ffffffffffc38000
+07ffc601fc0101c0f0fb81ffffc0ff800ffffffffff00000ffffffffffe000000fff8e01fc0101c0f0fc01ffffe07ffc3ffffffffff00000fffffffffff800001fff8e01f80100c0f87e00ffffe07ffffffffffffff00000fffffffffffc00001fff0c01f00100c0f87f00fffff027fffffffffffff00000ffffffffffff00
+001fff1803f00300c0783f807ffff803fffffffffffff00000ffffffffffff80001ffff007e00700c07c3fe03ffffe01fffffffffffff00000ffffffffffffc0063fffc007c00e00c07c1ff01fffff03fffffffffffff00000ffffffffffffe00f7fff8007c01c00c37e1ff807ffffcffffffffffffff00000ffffffffffff
+f01ffff8000f803800c3fe0ffe01ff7ffffffffffffffff00000ffffffffffffff3fff80000f007000c3fe07fe001003fffffffffffffff00000fffffffffffffffffe00000f00e000c3fe07fe000001fffffffffffffff00000fffffffffffffffffc00180f01c001c3fe03fe000001fffffffffffffff00000ffffffffff
+fffffff0001c0e038001e3fe00fe000003fffffffffffffff00000ffffffffffffffffe0003c0e070003c3fe001e00007ffffffffffffffff00000ffffffffffffffffe0001c0e0c0007c3ff0006001ffffffffffffffffff00000fffffffffffffffff0001e0e1c000fc3ff8000007ffffffffffffffffff00000ffffffff
+fffffffff9880e0f1800ff83ffffe0007ffffffffffffffffff00000fffffffffffffffffffe0e0f103fff83fffff000fffffffffffffffffff00000fffffffffffffffffffe060fc07fff03ffffc000fffffffffffffffffff00000ffffffffffffffffffff870f80ffff03ffff8000fffffffffffffffffff00000ffffff
+ffffffffffffffff0e01fff003fffe0001fffffffffffffffffff00000ffffffffffffffffffffff0001fe0007ffc0000ffffffffffffffffffff00000ffffffffffffffffffffff0007fc0007ffc0007ffffffffffffffffffff00000ffffffffffffffffffffff801ff80007ffc001fffffffffffffffffffff00000ffff
+ffffffffffffffffff807ff8000fffc01ffffffffffffffffffffff00000fffffffffffffffffffffffffff8001fffe0fffffffffffffffffffffff00000fffffffffffffffffffffffffff8007ffffffffffffffffffffffffffff00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000ff
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000004000000070101000300000000000000000000000000000000000000000000ff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff}}{\lang1024 
+\par }\pard \nowidctlpar\pvpara\phpg\posx4608\posy469\absh2492\absw2526\dxfrtext180\dfrmtxtx180\dfrmtxty0 {\lang1024 
+\par }\pard \qc\nowidctlpar {\fs48 
+\par }\pard \nowidctlpar {\fs48 
+\par }\pard \qc\nowidctlpar {\fs48 
+\par 
+\par 
+\par 
+\par University of Bath
+\par }\pard \nowidctlpar 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \pard \nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 \shading2000\cbpat8 {\fs22 CONTENTS
+\par }\pard \nowidctlpar 
+\par \pard \fi-360\li360\nowidctlpar\tx360 {\fs22 
+\par 1.0\tab User Requirements\tab \tab \tab \tab \tab \tab \tab \tab 3\tab 
+\par }\pard \nowidctlpar {\fs22 
+\par }\pard \fi-360\li360\nowidctlpar\tx360 {\fs22 2.0\tab Requirements Analysis\tab \tab \tab \tab \tab \tab \tab 3\tab 
+\par }\pard \fi-709\li709\nowidctlpar {\fs22 \tab 
+\par }\pard \fi-360\li360\nowidctlpar\tx360 {\fs22 3.0\tab Requirements Specification\tab \tab \tab \tab \tab \tab \tab 5\tab \tab \tab 
+\par }\pard \fi-709\li709\nowidctlpar\tx426 {\fs22 4.0\tab System Design\tab \tab \tab \tab \tab \tab \tab \tab 7\tab 
+\par }\pard \fi-709\li709\nowidctlpar\tx709 {\fs22 \tab 
+\par }\pard \fi-709\li709\nowidctlpar\tx426 {\fs22 5.0\tab Informal Design of Ordered List Module\tab \tab \tab \tab \tab 9\tab \tab \tab \tab 
+\par 6.0\tab Informal Design of Concordance Program\tab \tab \tab \tab \tab 10
+\par }\pard \fi-709\li709\nowidctlpar\tx709 {\fs22 \tab 
+\par }\pard \fi-709\li709\nowidctlpar\tx426 {\fs22 7.0\tab Implementation of Concordance Program in Oberon-2\tab \tab \tab 12\tab 
+\par 
+\par 8.0\tab Conclusion\tab \tab \tab \tab \tab \tab \tab \tab \tab 19\tab 
+\par 
+\par }\pard \nowidctlpar 
+\par {\fs22 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \qj\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp60 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 \shading2000\cbpat8 {\fs22 1.0 USER REQUIREMENTS
+\par }\pard \qj\nowidctlpar {\fs22 
+\par You must design and implement a program that can read in a text file and build a text concordance of all the different words in the text. The name of the file must be supplied by the user. The concordance must also be able to include the number of times t
+hat each individual word appears in the text. The user should be able to interact with the program and view the complete concordance for the text or search for the concordance of any individual word. The program should be able to work for a file of any si
+ze.
+\par 
+\par }\pard \qj\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 \shading2000\cbpat8 {\fs22 2.0 REQUIREMENTS ANALYSIS
+\par }\pard \qj\nowidctlpar {\fs22 
+\par }{\b\fs22 2.1 Specific requirements for the functionality of Ordered List.
+\par }{\fs22 
+\par The operations of the data abstraction Ordered List have been defined in section 4.2. The implementation of this abstraction must therefore follow these specifications closely. An analysis of the solution to this problem (see section 3.2) shows that the o
+perations contained within Ordered List are sufficient to solve the concordance problem.
+\par 
+\par }{\b\fs22 2.2 What are the goals of the concordance program?}{\fs22 
+\par 
+\par The program must ha
+ve the ability to place all the words in a text file into alphabetical order. It should also be able to display a count of all the occurences of each word. There should also be the option to view the whole concordance or just that of an individual word.
+
+\par 
+\par The concordance program must utilise the Ordered List data abstraction. This abstraction must use a dynamic data structure. The client has also requested that the abstraction must be modularised within a single library module that will include the operati
+ons of Ordered List and the types required. The program must also have an easy to use interface.
+\par 
+\par }{\b\fs22 2.3 Graphical options for the interface.}{\fs22 
+\par 
+\par Since the interface between the program is based solely on text then the In/Out module will be sufficient for the purposes of this exercise. The user will have to be supplied with various options to which they will supply their answer via the keyboard. Th
+ere will be no icons used so there will be no need for a mouse. Output will be to a VDU.
+\par 
+\par }{\b\fs22 2.4 What software and hardware constraints are there? (If any?)}{\fs22 
+\par 
+\par The client has requested that the concordance program be implemented using the Oberon-2 programming language, running on Windows\'99
+ PC. The POW! Oberon-2 compiler is available for use but the Ordered List data abstraction must be implemented in a single library module on it\rquote s own. The Ordered List must also be implemented as a dynamic data structure.
+\par 
+\par The client will be using a free standing PC within the university that is running Windows\'99 O/S 3.11. The program is only intended to run on a PC with an Intel\'99
+ 80486 processor. They should also have access to the POW! Oberon-2 compiler. Therefore the interface is the one provided by the POW! run time system on Win 3.11. The program must be contained on a 3 \'bd\rdblquote  1.44Mb floppy disk.
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs22 2.5 Any other constraints?}{\fs22 
+\par 
+\par There is a time constraint of three weeks in which to build, test and run the program. The deadline for delivery of the program and documentation is 12 noon Friday 15th January 1999. Only one p
+rogrammer is available for the implementation of the program. This puts a limit on the size and graphical complexity of the concordance program user interface.
+\par 
+\par }{\b\fs22 2.6 Is there any input data required?}{\fs22 
+\par 
+\par As mentioned in section 2.2 there is a minimal amount of data input for the user. At most the user will be required to input a filename and the appropriate function they wish to complete. There must also be simple on-line instructions (displayed on the sc
+reen) that guide the user to input the correct type of in
+formation. If the wrong information is inputted, it is imperative that the user is made aware of their mistake and the chance to correct it should follow immediately. When the program has been completed, the user needs to be informed of the current state 
+and given the option to quit the program or to input another file to examine.
+\par 
+\par }\pard \qj\nowidctlpar\tx4395 {\b\fs22 2.7 What security measures should be taken, if any?}{\fs22 
+\par }\pard \qj\nowidctlpar {\fs22 
+\par The program does not require any security measures and anyone with access to the correct software should be able to run the p
+rogram. As mentioned in section 2.4, the program should be presented to the client on a floppy disk with a soft and hard copy kept by the developer. The developer should also keep copies of the documentation provided with the program.
+\par }{\b\fs22 
+\par 2.8 Is there any training required?}{\fs22 
+\par 
+\par The client is expert in the use of the Windows\'99 O/S 3.11 and the POW! Oberon-2 compiler and there will be sufficient instructions within the program on the screen for the user to follow, so there will be no need for any training. 
+\par }{\b\fs22 
+\par 2.9 Does the client require any additional printed information?}{\fs22                          
+\par 
+\par The client has requested that included with the program there is: 
+\par 
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \qj\fi-360\li360\nowidctlpar\tx360{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}{\fs22 Requirements analysis and requirements specification,
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Fully commented listing of the program,
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Detailed descriptions of how the programmer arrived at the solution,
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Criticism of the development process.
+\par {\pntext\tab}}\pard \qj\nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 2.10 What are the testing requirements?}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\tab}
+As the dynamic representation of Ordered List is to be implemented as a separate library module it is necessary to test this module before continuing onto the development of the concordance program. When the program is complete it is necessary to make sur
+e the program runs on the intended hardware. This is more a matter of good software development and not as much a direct need of the client. This program is not safety-critical, so this basic level of testing is all that is required.
+\par {\pntext\tab}
+\par {\pntext\tab}}{\b\fs22 2.11 What are the maintenance requirements?}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\tab}There are no specific maintenance requirements that the client has requested. However, there is sufficient expertise within the client\rquote 
+s company so that they can be given a limited amount of documentation on how to maintain the software.}{\b\fs22  }{\fs22 
+\par {\pntext\tab}}{\b\fs22 2.12 What possible user interfaces are required by the client?
+\par {\pntext\tab}
+\par {\pntext\tab}}{\fs22 Due to both programmer and time constraints the user interface will be rather simple. The input will be through typed responses via the keyboard. There will be no icon driven inte
+rface so a mouse will not be a necessary requirement. The display will be via the VDU and as the program will only run on the computer there will be no need to print out any results. There is a possibility of animating the movement of trucks including the
+ shunter but once again, constraints concerning available programming time mean that this is unlikely to be implemented.
+\par {\pntext\tab}
+\par {\pntext\tab}}\pard \qj\nowidctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrl\brdrs\brdrw15\brsp80 \brdrb\brdrs\brdrw15\brsp20 \brdrr\brdrs\brdrw15\brsp80 {\*\pn \pnlvlcont\pndec }\shading2000\cbpat8 {\fs22 3.0 REQUIREMENTS SPECIFICATION
+\par {\pntext\tab}}\pard \qj\nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.1 The Ordered List abstraction and it\rquote s operations.
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \qj\fi-360\li360\nowidctlpar\tx360{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}{\fs22 Create a new and empty Ordered List.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Add an item to the top of the Ordered List.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Insert an item into the Ordered List in it\rquote s appropriate position.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Take an item away from the top of the Ordered List.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Find out what value the top item has.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Find out if a specified value is in the Ordered List.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Find out if the Ordered List is empty.
+\par {\pntext\tab}}\pard \qj\nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.2 Analysis of concordance program.
+\par {\pntext\tab}
+\par {\pntext\tab}}{\fs22 When the program runs, it will prompt from the user to inpu
+t the name of a file. The file will be opened and the text inside will be read using a module that reads words from a text file. A word is defined as a string of alphabetic characters (no hyphens allowed). The module that reads the words has already been 
+supplied (partially completed) by an external consultant, Dr. C P Willis.
+\par {\pntext\tab}
+\par {\pntext\tab}When the user enters the name of the file to be examined, it will be opened and read until the EOF character by the module Words. The read words from the file will be placed alphab
+etically in an Ordered List. The user will be given a selection of options to choose from and each of these options will utilise the operations given above.
+\par {\pntext\tab}
+\par {\pntext\tab}The options will be:
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \qj\fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 View the complete concordance of the text file.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Search for a particular word from within the text and find it\rquote s number of occurences.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Give the option to repeat the process by inputting another filename.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Quit from the program.
+\par {\pntext\tab}}\pard \qj\nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}\pard \qj\nowidctlpar\tx0{\*\pn \pnlvlcont\pndec }{\b\fs22\lang1024 3.3 Graphical display of interface.
+\par {\pntext\tab}
+\par {\pntext\tab}}\pard\plain \s19\qj\nowidctlpar\tx0{\*\pn \pnlvlcont\pndec }\f4\fs22\lang1024 The following screeenshot is what the user shall be interacting with.
+\par {\pntext\tab}\pard\plain \qj\nowidctlpar\tx0{\*\pn \pnlvlcont\pndec }\f4\fs20\lang2057 {\b\fs22\lang1024 
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\b\fs22 
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}
+\par {\pntext\tab}}{\b\fs22 \tab }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.4 Software and hardware constraints.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 Target machine for the program is a 486 PC with a 3 \'bd\rdblquote  floppy disk drive.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}The machine must be running at least Windows\'99 3.11 O/S.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}The program will require the POW! compiler for the Oberon-2 programming language.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.5 Other constraints (available resources and delivery).}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 Three weeks development time.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}One programmer.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Access to 486 PC with POW! and Oberon-2 on Windows\'99 3.11.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}There are no cost or size considerations that need to be made for this particular project as the entire project is self funded.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}The response time of the system is also not a factor that needs consideration. The system is small enough not to cause problems.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.6 Data input.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 The user must input the name of the file they wish to examine.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}User is requested to input an answer to one of the options available.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}The user will be prompted to run the program with the same file, a different file, search for a particular word or exit the program completely.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}\pard \qj\nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+The program will support the novice user by allowing mistakes at input to be corrected. If the wrong filename is given then the program will give an error message and the option to try again or view the help file. If the help file is chosen, brief instruc
+tions on how to open a file are given followed by the option to input another file. Inputting another file brings back the option menu. If \lquote v\rquote 
+ is chosen then the whole concordance is printed out followed by the number of seperate words in the file. The option menu will be printed again underneath.
+\par {\pntext\tab}
+\par {\pntext\tab}If \lquote s\rquote 
+ is chosen then the option to search for a single word is given. If the word is not in the file an error message will be given followed by the option to search for the word again or to quit the search. If the user presses a key other than \lquote y
+\rquote  or \lquote n\rquote  another error message appears and the only way to continue is to press lowercase \lquote y\rquote . If the word does appear in the text then the program will differentiate between it occuring once, twice or x number of times.
+
+\par {\pntext\tab}
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 If \lquote a\rquote  is chosen then the program will repeat itself from the start and \lquote q\rquote  will exit the program gracefully with an exit message.
+\par {\pntext\tab}}{\b\fs22 3.7 Security.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 No security is required.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 The developer will retain a copy of the program and documentation.
+\par {\pntext\tab}
+\par {\pntext\tab}}{\b\fs22 3.8 Training.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 No training is required.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\b\fs22 
+\par {\pntext\tab}3.9 Documentation.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\tab}The developer will supply the following documents:
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 Requirements analysis leading to requirements specification for concordance program problem.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Analysis and design of solution.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Choice of data abstraction for concordance and their realisation in Oberon-2.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}Critical analysis of the program development and the final implementation.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.10 Testing.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\tab}The initial stage of testing will require:
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 
+Writing of a separate program module to test the Ordered List module. This will be compiled and run on at least two separate PCs.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}If the Ordered List module passes the testing then the program will be developed further. When this is complete the second stage of testing will require:
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 Compilation and execution of the concordance program on at least two separate PCs.
+\par {\pntext\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 The program will be deemed to have passed testing if:
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 The program supports the novice user.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}The program is robust enough to not allow the inputting of incorrect or type mismatched data (i.e. inputting of characters when only integers are required).
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.11 Maintenance.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 The client is responsible for the maintenance of the software.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 3.12 User interface for concordance program.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\fs22 Prompts in the form of questions will obtain the required data from the user. 
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}The text will appear in the Oberon-2 In/Out output screen.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}\pard \nowidctlpar\box\brdrs\brdrw15\brsp20 {\*\pn \pnlvlcont\pndec }\shading2000 {\fs22 4.0 SYSTEM DESIGN
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\b\fs22 4.1 The Ordered List Data Abstraction.}{\fs22 
+\par {\pntext\tab}
+\par {\pntext\tab}}{\fs22\ul Constructors
+\par {\pntext\tab}}{\fs22 
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\b\fs22 Create}{\fs22 . Create a new Ordered List with which to add items to.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}{\b\fs22 Cons.}{\fs22  If given an integer it will put the item on the top of the Ordered List.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}{\b\fs22 Insert. }{\fs22 This function will return a list with an item inserted in it\rquote s correct position.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22 
+\par {\pntext\tab}}{\fs22\ul Observers
+\par {\pntext\tab}}{\fs22 
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\b\fs22 IsEmpty.}{\fs22  If given a Ordered List this function will return if it is empty or not.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}{\b\fs22 Head.}{\fs22  If given a Ordered List this procedure will tell you what item was last added to the \tab    Ordered List.
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}{\b\fs22 IsIn. }{\fs22 This will search an Ordered List for a specified item.
+\par {\pntext\tab}}\pard \nowidctlpar{\*\pn \pnlvlcont\pndec }{\fs22\ul 
+\par {\pntext\tab}Modifiers
+\par {\pntext\tab}}{\fs22 
+\par {\pntext\pard\plain\f1\fs22 \'b7\tab}}\pard \fi-283\li283\nowidctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent283\pnhang{\pntxtb \'b7}}{\b\fs22 Tail.}{\fs22  This function will return a Ordered List with the top item removed from it.
+\par }\pard \nowidctlpar {\fs22  
+\par }{\b\fs22 4.2 Formal specification of Ordered List.}{\fs22 
+\par 
+\par Types provided: Ordered List.
+\par 
+\par }{\fs22\ul Operations:
+\par }{\fs22 
+\par Create: }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par Cons: Ordered List, Item }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par Insert: Ordered List, Item }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par IsEmpty: Ordered List }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  BOOLEAN;
+\par Head: Ordered List }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Item;
+\par IsIn: Ordered List, Item }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  BOOLEAN;
+\par Tail: Ordered List }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par }{\fs22\ul 
+\par Semantics:
+\par }{\fs22 
+\par Create: }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par Pre-condition: None.
+\par Post-condition: Returns an empty Ordered List.
+\par 
+\par Cons: Ordered List, Item }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par Pre-condtion: None.
+\par Post-condition: Returns the list created by adding the given item to the head of the given list.
+\par 
+\par Insert: Ordered List, Item }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par Pre-condition: If the list contains more than one item it must be ordered according to inserts 
+\par                      ordering rules
+\par Post-condition: Returns the list formed by inserting the given item into the list such that all 
+\par                        items in front of it (nearer the head) are smaller than the item and all items  
+\par                        behind are larger. Will not insert duplicate items.
+\par 
+\par IsEmpty: Ordered List }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  BOOLEAN;
+\par Pre-condition: None.
+\par Post-condition: Returns true if the Ordered List is empty and false otherwise.
+\par 
+\par Head: Ordered List }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered ListItem;
+\par Pre-condition: Given Ordered List is non-empty.
+\par Post-condition: Returns a copy of the top item of the Ordered List.
+\par 
+\par IsIn: Ordered List, Item }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  BOOLEAN;
+\par Pre-condition: None.
+\par Post-condition: Returns True if given item is in the list and False otherwise.
+\par 
+\par Tail: Ordered List }{\fs22 {\field{\*\fldinst SYMBOL 174 \\f "Symbol" \\s 11}{\fldrslt\f1\fs22}}}{\fs22  Ordered List;
+\par Pre-condition: None.
+\par Post-condition: Returns the Ordered List minus it\rquote s head item
+\par }{\fs22\ul 
+\par Axioms:}{\fs22 
+\par 
+\par Insert (Create, i) : = Cons (Create, i)
+\par Insert (Cons (l, j), i) : =  If Equal (i, j) then
+\par \tab \tab \tab \tab Cons(l, j)
+\par \tab \tab \tab Else If Greater (i, j) then
+\par \tab \tab \tab \tab Cons (Cons (l, j), i)
+\par \tab \tab \tab Else
+\par \tab \tab \tab \tab Cons (Insert (l, i), j)
+\par Tail (Create) : = Create
+\par Tail (Cons (l, i)) : = l
+\par Head (Create) : = Error
+\par Head (Cons (l, i)) : = i
+\par IsEmpty (Create) : = True
+\par IsEmpty (Cons (l, i)) : = False
+\par IsIn (Create, i) : = False
+\par IsIn (Cons (l, j ), i) : = If Equal (i, j) then
+\par \tab \tab \tab \tab TRUE
+\par \tab \tab            Else
+\par \tab \tab \tab \tab IsIn (l, i)
+\par 
+\par }{\fs22\ul Where:
+\par }{\fs22 
+\par l is of type Ordered List,
+\par i, j are of type Item.
+\par 
+\par }{\b\fs22 4.3 Representation Type.}{\fs22 
+\par 
+\par As already stated in the requirements specification (section 2.1), this program will require a dynamic data structure. This is because it is not known before compilation time how big the file is, so a static data structure will be too limiting. Therefore 
+pointers will be used as the representation type for the Ordered List data abstraction
+\par 
+\par }\pard \nowidctlpar\box\brdrs\brdrw15\brsp20 \shading2000 {\fs22 5.0 INFORMAL DESIGN OF ORDERED LIST MODULE
+\par }\pard \nowidctlpar {\fs22 
+\par }{\f5\fs22 PROCEDURE Create.
+\par Return a pointer to a list node that is set to NIL
+\par 
+\par PROCEDURE Is Empty
+\par IF list is empty then 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Return a Boolean value of TRUE
+\par }\pard \nowidctlpar {\f5\fs22 Else 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Returned value will be FALSE.
+\par }\pard \nowidctlpar {\f5\fs22 End
+\par 
+\par 
+\par PROCEDURE Cons
+\par Create a temporary pointer to a list node
+\par Allocate space for the list node
+\par Store the list item in the node along with the count
+\par Set up the nodes next pointer to point to the original head of the list
+\par Return the temporary pointer to the calling program as list pointer.
+\par 
+\par PROCEDURE Tail
+\par IF the list is empty then 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Return the list
+\par }\pard \nowidctlpar {\f5\fs22 Else 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Return the head\rquote s pointer to the next node as the list pointer.
+\par }\pard \nowidctlpar {\f5\fs22 End
+\par 
+\par PROCEDURE Head
+\par IF the list is not empty then 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Assign the list item and count to variables
+\par }\pard \nowidctlpar {\f5\fs22 Else 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Give an error message and set the variable for list item to the end of array 
+\par character.
+\par }\pard \nowidctlpar {\f5\fs22 End
+\par 
+\par PROCEDURE Insert
+\par IF list is empty then 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Return a list that has the item Cons\lquote ed onto a list with the count set to 1
+\par }\pard \nowidctlpar {\f5\fs22 Else 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 If the item is in the list then
+\par }\pard \fi720\li720\nowidctlpar {\f5\fs22 Increment the count for that item and then return the list.
+\par }\pard \nowidctlpar {\f5\fs22 \tab Else 
+\par }\pard \fi720\li720\ri-244\nowidctlpar {\f5\fs22 The item belongs at the head of the list so Cons it on and set count to 1
+\par }\pard \nowidctlpar {\f5\fs22 \tab Else 
+\par }\pard \li1440\nowidctlpar {\f5\fs22 Recursivey insert the item into the tail of the list remembering to Cons the Head back on to the list.
+\par }\pard \nowidctlpar {\f5\fs22 End
+\par 
+\par PROCEDURE IsIn
+\par IF list is empty then 
+\par }\pard \fi720\li720\nowidctlpar {\f5\fs22 Return a Boolean value of FALSE
+\par }\pard \nowidctlpar {\f5\fs22 Else if the item is equal to the head item 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Return value of TRUE
+\par }\pard \nowidctlpar {\f5\fs22 Else 
+\par }\pard \fi720\nowidctlpar {\f5\fs22 Recursively check IsIn in the tail of the list
+\par }\pard \nowidctlpar {\f5\fs22 End
+\par }{\fs22 
+\par }\pard \nowidctlpar\box\brdrs\brdrw15\brsp20 \shading2000 {\fs22 6.0 INFORMAL DESIGN OF CONCORDANCE PROGRAM
+\par }\pard \nowidctlpar {\f5\fs22 
+\par PROCEDURE IsAlpha
+\par If character is a letter then
+\par \tab Return TRUE
+\par Else
+\par \tab Return FALSE
+\par End
+\par 
+\par 
+\par PROCEDURE Skip
+\par While not at the end of file and not a character
+\par \tab Read character and if a space set result to TRUE
+\par \tab If result is not a character then create error message
+\par End
+\par PROCEDURE ReadWord
+\par Call procedure Skip
+\par If not at the end of file 
+\par \tab Read word into word and store an end of array chaaracter at the end
+\par \tab Convert all charaters to uppercase
+\par \tab Insert the word into the list according to alphabetic ordering (a to z)
+\par End
+\par 
+\par PROCEDURE MainProgram
+\par REPEAT
+\par \tab Create a list
+\par \tab Welcome user to the program 
+\par \tab Get user to type in file name
+\par 
+\par \tab REPEAT
+\par \tab \tab Open file
+\par \tab \tab If file cannot be opened give the user an error message
+\par \tab \tab Offer the option to view the help file or try to open file again
+\par \tab \tab WHILE filename entered is \lquote h\rquote 
+\par \tab \tab \tab Print out help file
+\par \tab \tab \tab At end of help file give opportuntity to enter filename again
+\par \tab \tab End WHILE
+\par \tab UNTIL file could be opened
+\par \tab 
+\par \tab Call up ReadWord procedure to get words from file into the list
+\par  \tab 
+\par \tab Display the options available to the user
+\par 
+\par \tab IF option to view concordance or search for word is chosen then 
+\par \tab \tab IF option to view concordance is chosen
+\par \tab \tab \tab Assign a temporary pointer to list
+\par \tab \tab \tab Set word count to zero\tab \tab \tab 
+\par \tab \tab \tab Find out what word is at the head
+\par \tab \tab \tab Print out the word
+\par \tab \tab \tab Increment the word count by one
+\par \tab \tab \tab Print out word count
+\par \tab \tab End IF
+\par 
+\par \tab \tab IF option to search for a word is chosen then 
+\par \tab \tab \tab Assign a temporary pointer to list
+\par \tab \tab \tab REPEAT
+\par \tab \tab \tab \tab Get search word from user
+\par \tab \tab \tab \tab Convert to uppercase
+\par \tab \tab \tab \tab 
+\par \tab \tab \tab \tab IF word is in list then
+\par \tab \tab \tab \tab \tab  REPEAT
+\par \tab \tab \tab \tab \tab \tab Get the head item 
+\par \tab \tab \tab \tab \tab \tab Tail the list
+\par \tab \tab \tab \tab \tab UNTIL the search word matches the list word
+\par \tab \tab \tab \tab \tab 
+\par }\pard \ri-514\nowidctlpar {\f5\fs22 \tab \tab \tab \tab \tab Print out the word with it\rquote s number of occurences
+\par \tab \tab \tab \tab ELSE
+\par \tab \tab \tab \tab \tab Print message that word is not in the list
+\par \tab \tab \tab \tab \tab Give user the opportunity to search again
+\par }\pard \nowidctlpar {\f5\fs22 \tab \tab \tab \tab End
+\par \tab \tab \tab UNTIL the user does not want to search any more
+\par 
+\par \tab \tab IF option a is chosen then 
+\par \tab \tab \tab Close the file
+\par \tab \tab \tab IF the list is not empty
+\par \tab \tab \tab \tab Dispose of all the contents
+\par \tab \tab \tab End
+\par }\pard \ri-244\nowidctlpar {\f5\fs22 \tab \tab \tab Set repeat variable so that the first repeat loop is executed again
+\par \tab \tab End
+\par \tab End
+\par UNTIL option q is chosen .
+\par Print out exiting statements
+\par 
+\par End Main Program
+\par }\pard \nowidctlpar {\fs22 
+\par }\pard \nowidctlpar\box\brdrs\brdrw15\brsp20 \shading2000 {\fs22 7.0 IMPLEMENTATION OF CONCORDANCE PROGRAM IN OBERON-2
+\par }\pard \nowidctlpar {\fs22 
+\par }MODULE Words;
+\par 
+\par IMPORT F := File, In, Out, L := List, S := Strings;
+\par 
+\par CONST 
+\par \pard \fi720\nowidctlpar MaxWord = 20;
+\par \pard \nowidctlpar TYPE
+\par \pard \fi720\nowidctlpar (*A word is an array specified in the module list*)
+\par Word = L.ListItem;
+\par \pard \nowidctlpar     
+\par PROCEDURE IsAlpha (ch:CHAR): BOOLEAN;
+\par (*Indicates whether or not a char is alphabetic.
+\par     Pre-Condition: none. 
+\par     Post-Condition: True if ch is upper or lowercase letter. False otherwise*)
+\par 
+\par BEGIN
+\par \pard \fi720\nowidctlpar IF ((ch>= "A") & (ch<="Z")) OR ((ch>= "a") & (ch<="z")) THEN
+\par \pard \fi720\li720\nowidctlpar (*Valid letter*)
+\par RETURN TRUE;
+\par \pard \fi720\nowidctlpar ELSE
+\par \pard \fi720\li720\nowidctlpar (*Not a letter*)
+\par RETURN FALSE;
+\par \pard \fi720\nowidctlpar END;
+\par \pard \nowidctlpar END IsAlpha;
+\par 
+\par 
+\par PROCEDURE Skip (file:F.Handle; VAR ch:CHAR);
+\par (*Skips over any white space and punctuation marks between words.
+\par Pre-Condition: file must be open for reading
+\par Post-Condition: moves the file pointer past any white space or punctuation in the file to the next 
+\par                              alphabetic character which is returned in ch.*)
+\par 
+\par CONST
+\par \pard \fi720\nowidctlpar Space = CHR(32); (*ASCII space*)
+\par \pard \nowidctlpar VAR
+\par \pard \fi720\nowidctlpar result : INTEGER; (*For ReadChar to return a result indicating whether
+\par \pard \nowidctlpar                                                   or not it worked*)                        
+\par BEGIN
+\par \pard \fi720\nowidctlpar ch := Space; (*Starting condition*)
+\par \pard \nowidctlpar     
+\par \pard \fi720\nowidctlpar (*Read characters one at a time until we reach end of file or an 
+\par alphabetic character*)
+\par WHILE (~F.AtEnd(file)) & ~IsAlpha(ch) DO
+\par \pard \fi720\li720\nowidctlpar F.ReadChar(file, ch, result);
+\par (*halt program if in error was reported by ReadChar*)
+\par 
+\par IF result # F.NOERROR THEN
+\par \pard \fi720\li1440\nowidctlpar Out.String("Could not read character");
+\par HALT(0);
+\par \pard \fi720\li720\nowidctlpar END; (*End IF*)
+\par 
+\par \pard \fi720\nowidctlpar END;  (*End WHILE*)
+\par \pard \nowidctlpar END Skip;
+\par 
+\par PROCEDURE ReadWord (file: F.Handle; VAR word: Word; VAR success
+ : BOOLEAN; VAR                                                                                                                                                                                                  wordList : L.List);
+\par (*Reads a single word from a given file.
+\par Pre-Condition: file must be open for reading
+\par Post-Condition: the next word in the file is read into variable word. If there is no word to read then 
+\par                              success is set to FALSE otherwise it is set to TRUE.*)
+\par 
+\par VAR
+\par \pard \fi720\nowidctlpar ch : CHAR; (*character read from file*)
+\par result : INTEGER; (*for ReadChar to return a result indicating whether or not it worked*)
+\par i : INTEGER; (*ARRAY index for word array*)
+\par \pard \nowidctlpar     
+\par BEGIN
+\par \pard \fi720\nowidctlpar (*skip over any spaces or punctuation that come before the word*)
+\par Skip(file, ch);
+\par (*Check that we have not skipped to the end of the file and therefore
+\par have no words to read*)
+\par success := ~F.AtEnd(file);
+\par \pard \nowidctlpar 
+\par \pard \fi720\nowidctlpar IF success THEN
+\par \pard \fi720\li720\nowidctlpar (*read a word into variable word, storing a CHR(0)at end*)
+\par i := 0; 
+\par REPEAT 
+\par \pard \fi720\li1440\nowidctlpar (*store first character in word, if there is room, this character
+\par is the last one read by skip. Remeber to leave space for CHR(0) at end*)
+\par IF i < MaxWord-2 THEN
+\par \pard \fi720\li2160\nowidctlpar word[i] := ch; 
+\par INC(i);
+\par \pard \fi720\li1440\nowidctlpar END;
+\par (*read the next character from file*)
+\par F.ReadChar(file, ch, result);
+\par IF ((result # F.NOERROR) & (result # F.EOFREACHED)) THEN
+\par \pard \fi720\li2160\nowidctlpar Out.String("Could not read character");
+\par HALT(0);
+\par \pard \fi720\li1440\nowidctlpar END;
+\par \pard \fi720\li720\nowidctlpar UNTIL ((~IsAlpha(ch)) OR (result = F.EOFREACHED));
+\par \pard \nowidctlpar         
+\par \pard \fi720\li720\nowidctlpar (*store a CHR(0)at the end of the word so out.string can priont it out correctly*)
+\par word[i]:= CHR(0);
+\par \pard \nowidctlpar         
+\par \pard \fi720\li720\nowidctlpar (*Converts all of the characters to uppercase so all words can be sorted together*)
+\par S.UpCase(word);
+\par 
+\par (*Each word read gets put into the wordList*) 
+\par wordList := L.Insert(wordList, word); 
+\par \pard \fi720\nowidctlpar END; 
+\par \pard \nowidctlpar END ReadWord;
+\par 
+\par PROCEDURE ProgMain*;
+\par VAR
+\par \pard \fi720\nowidctlpar result : INTEGER;       (*For ReadChar to return a result indicating whether or not it worked*)
+\par create : BOOLEAN;     (*Used by F.Open if true will create a file first, if false will not
+\par \pard \nowidctlpar                                                             create file*)
+\par \pard \fi720\nowidctlpar handle : F.Handle;                                 (*File handle for accessing file*)
+\par word : Word;                                         (*word read in*)
+\par success : BOOLEAN;                           (*Indicates if ReadWord worked or not*) 
+\par filename : ARRAY 15 OF CHAR;       (*file to be searched, inputted by user*)
+\par searchWord, tempWord : L.ListItem;   (*specified word to search for*)
+\par option : ARRAY 2 OF CHAR;             (*array to store the option choice*)
+\par wordList, tempWordList : L.List;         (*The ordered lists in which to store the text*)
+\par count : L.Count;                (*count of occurences of each letter in the text*)
+\par wordCount : INTEGER;   (*count of the number of different words in the text.*)
+\par fail : INTEGER;                (*REPEAT loop variable for the word search*)
+\par searchAnswer : ARRAY 2 OF CHAR;       (*Allows exit from the search for a word loop*)
+\par run : INTEGER;                                           (*Allows user to return to start again*)
+\par \pard \nowidctlpar 
+\par BEGIN
+\par \pard \fi720\nowidctlpar run := 0;
+\par REPEAT
+\par \pard \nowidctlpar 
+\par \pard \fi720\li720\nowidctlpar (*Assign a new and empty list to wordList*)
+\par wordList := L.Create();
+\par \pard \nowidctlpar  
+\par \pard \fi720\li720\nowidctlpar (*Introduction text and prompt for user to input filename*)
+\par Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par Out.String(" Welcome to CONCORDANCE 2000 ");
+\par Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par Out.Ln; Out.Ln;
+\par Out.String("Please type in the name of the file you wish to preview.");
+\par Out.Ln; Out.Ln;
+\par In.String(filename);
+\par \pard \nowidctlpar   
+\par \pard \fi720\li720\nowidctlpar (*Open file for reading. Create is false because we know we are reading from
+\par an existing file, and so have no need to tell open to create it if it does not exist*)    
+\par create := FALSE;
+\par 
+\par REPEAT
+\par \pard \nowidctlpar         \tab \tab \tab (*Information to the reader while the file is being opened*)
+\par         \tab \tab \tab Out.String("Please wait while your file is being processed....");
+\par         \tab \tab \tab Out.Ln; Out.Ln;
+\par        \tab \tab \tab F.Open(filename, create, F.DENYALL, F.READONLY, handle, result);   
+\par         
+\par        \tab \tab \tab IF result # F.NOERROR THEN
+\par             \tab \tab \tab \tab Out.String("ERROR: Could not open file."); Out.Ln; Out.Ln;
+\par             \tab \tab \tab \tab (*Error message with help file option*)
+\par             \tab \tab \tab \tab Out.String("The file '");
+\par             \tab \tab \tab \tab Out.String(filename);
+\par             \tab \tab \tab \tab Out.String("' either does not exist or it is in the wrong directory."); 
+\par             \tab \tab \tab \tab Out.Ln;
+\par \pard \ri-694\nowidctlpar             \tab \tab \tab \tab Out.String("Please type 'h' to view the help file or re-type the filename");
+\par \pard \nowidctlpar             \tab \tab \tab \tab Out.Ln; Out.Ln;
+\par             \tab \tab \tab \tab In.String(filename);
+\par             
+\par             \tab \tab \tab \tab (*Help file*)
+\par             \tab \tab \tab \tab WHILE (filename = "h") OR (filename = "H") DO
+\par                 \tab \tab \tab \tab Out.Ln; Out.String("~~~~~~~~~~~~~~~~~~~~");
+\par \pard \ri-694\nowidctlpar                 \tab \tab \tab \tab Out.String(" Welcome to CONCORDANCE 2000 Help File ");
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~"); Out.Ln; Out.Ln;
+\par \pard \ri-1414\nowidctlpar                 \tab \tab \tab \tab Out.String("This program is designed to look at a text file and give the ");
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.Ln;
+\par \pard \ri-1414\nowidctlpar                 \tab \tab \tab \tab Out.String("concordance of words within that file.");Out.Ln;
+\par \pard \ri-1504\nowidctlpar                 \tab \tab \tab \tab Out.String("The file in question must be located within the same directory ");
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.Ln; 
+\par \pard \fi720\li2880\ri-874\nowidctlpar Out.String("as this program. If it is not then the prorgam will not ");
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.Ln; Out.String("recognise the file.");
+\par                 \tab \tab \tab \tab Out.Ln;
+\par \pard \ri-1144\nowidctlpar  \tab \tab \tab \tab \tab Out.String("Alternatively you have entered a file that does not exist");
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.Ln; Out.Ln;
+\par                 \tab \tab \tab \tab Out.String("Please try to input the filename again or ");
+\par                 \tab \tab \tab \tab Out.String("quit and move it to this directory.");
+\par                 \tab \tab \tab \tab (*Obtain the filename from the user again*)
+\par                 \tab \tab \tab \tab In.String(filename); Out.Ln; Out.Ln;
+\par \pard \ri-1594\nowidctlpar                 \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par \pard \ri-1324\nowidctlpar                 \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par \pard \fi720\li2880\nowidctlpar Out.Ln;Out.Ln; Out.Ln;
+\par \pard \nowidctlpar             \tab \tab \tab \tab END;  (*End WHILE loop*)
+\par             
+\par         \tab \tab \tab END; (*End IF loop*)
+\par         
+\par       \tab \tab UNTIL result = F.NOERROR;  (*End REPEAT loop*)
+\par     
+\par       \tab \tab (*read word until readword sets success to false*)
+\par       \tab \tab success := TRUE; 
+\par       \tab \tab WHILE success DO
+\par         \tab \tab \tab ReadWord(handle, word, success, wordList); 
+\par       \tab \tab END;
+\par     
+\par       \tab \tab (*As long as the inputted character is not on the option list these
+\par         \tab \tab options will be repeatedly displayed*)
+\par       \tab \tab REPEAT (* 'option' REPEAT loop*)
+\par         
+\par         \tab \tab \tab Out.String("The file you have entered is '");
+\par         \tab \tab \tab Out.String(filename); Out.String("'.");Out.Ln;
+\par         \tab \tab \tab Out.String("Please enter the option you wish to execute and press return.");
+\par         \tab \tab \tab Out.Ln; Out.Ln;
+\par         \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~");
+\par         \tab \tab \tab Out.String(" CONCORDANCE 2000 Option File ");
+\par         \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par         \tab \tab \tab Out.Ln; Out.Ln;
+\par         \tab \tab \tab Out.String("'W' : View the concordance for the whole file."); Out.Ln;     
+\par         \tab \tab \tab Out.String("'S' : Search the file for a specified word."); Out.Ln;
+\par         \tab \tab \tab Out.String("'A' : View the concordance for the another file."); Out.Ln;
+\par         \tab \tab \tab Out.String("'Q' : Quit this program."); Out.Ln; Out.Ln;
+\par         \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par \pard \ri-1054\nowidctlpar         \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");Out.Ln;Out.Ln;
+\par \pard \nowidctlpar         \tab \tab \tab In.String(option);
+\par 
+\par         \tab \tab \tab IF ((option = 'W') OR (option = 'w')) OR  ((option = 's') OR (option = 'S')) 
+\par                                        \tab \tab \tab OR  ((option = 'a') OR (option = 'A')) THEN
+\par             
+\par             \tab \tab \tab \tab IF (option = 'W') OR (option = 'w') THEN
+\par \pard \ri-784\nowidctlpar                 \tab \tab \tab \tab (*Assign a temporary pointer to the top item. This pointer can be 
+\par \pard \nowidctlpar                   \tab \tab \tab \tab     moved without changing the original pointer*)
+\par                 \tab \tab \tab \tab tempWordList := wordList;
+\par                 
+\par \pard \ri-964\nowidctlpar                 \tab \tab \tab \tab Out.String("The following words were found in your file.");
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.Ln; Out.Ln; 
+\par                 
+\par \pard \ri-1144\nowidctlpar                 \tab \tab \tab \tab (*Reset the wordCount to zero so previous counts don't get counted*)
+\par \pard \nowidctlpar                 \tab \tab \tab \tab wordCount := 0;
+\par                 
+\par                 \tab \tab \tab \tab (*Display the word and individual count of that word.*)
+\par                 \tab \tab \tab \tab WHILE ~L.IsEmpty(tempWordList) DO
+\par                     
+\par                     \tab \tab \tab \tab \tab L.Head(tempWordList, word, count);
+\par                     \tab \tab \tab \tab \tab INC(wordCount); 
+\par                     \tab \tab \tab \tab \tab S.LeftAlign(word, 20);
+\par                     \tab \tab \tab \tab \tab Out.String(word);
+\par                     \tab \tab \tab \tab \tab Out.Int(count, 3); 
+\par                     \tab \tab \tab \tab \tab Out.Ln;
+\par                     \tab \tab \tab \tab \tab tempWordList := L.Tail(tempWordList);
+\par                         
+\par                 \tab \tab \tab \tab END; (*End WHILE loop*)
+\par                 
+\par \pard \ri-1414\nowidctlpar                 \tab \tab \tab \tab (*Displays the count of how many seperate words there are in the file*)
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.Ln;
+\par                 \tab \tab \tab \tab Out.String("There are: ");
+\par                 \tab \tab \tab \tab Out.Int(wordCount, 4);
+\par \pard \ri-1324\nowidctlpar                 \tab \tab \tab \tab Out.String(" seperate words in '");Out.String(filename); Out.String("'.");
+\par \pard \nowidctlpar                 \tab \tab \tab \tab Out.Ln;Out.Ln;
+\par \pard \ri-1594\nowidctlpar                 \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par \pard \ri-1324\nowidctlpar                 \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par \pard \fi720\li2880\nowidctlpar Out.Ln;Out.Ln;
+\par \pard \nowidctlpar                 
+\par                 \tab \tab \tab \tab (*Reset the First REPEAT variable*)
+\par                 \tab \tab \tab \tab run := 0;
+\par                 
+\par             \tab \tab \tab \tab ELSIF (option = 's') OR (option = 'S') THEN
+\par               
+\par                 \tab \tab \tab \tab tempWordList := wordList; 
+\par                 \tab \tab \tab \tab fail := 0; 
+\par                 
+\par                 \tab \tab \tab \tab REPEAT  (*1*) 
+\par \pard \ri-1144\nowidctlpar                     \tab \tab \tab \tab \tab Out.String("Please enter the word you wish to search for.");
+\par \pard \nowidctlpar                     \tab \tab \tab \tab \tab In.String(searchWord);
+\par                     \tab \tab \tab \tab \tab S.UpCase(searchWord);
+\par \tab \tab \tab \tab \tab \tab 
+\par \pard \fi720\li3600\nowidctlpar (*2nd inner IF loop*)
+\par \pard \ri-810\nowidctlpar                     \tab \tab \tab \tab \tab IF L.IsIn(tempWordList, searchWord) THEN 
+\par \pard \nowidctlpar                         
+\par                         \tab \tab \tab \tab \tab \tab REPEAT  (*2*)
+\par \pard \ri-1504\nowidctlpar                             \tab \tab \tab \tab \tab \tab \tab L.Head(tempWordList, tempWord, count);
+\par \pard \ri-1324\nowidctlpar                            \tab \tab \tab \tab \tab \tab \tab tempWordList := L.Tail(tempWordList);
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab UNTIL tempWord = searchWord; 
+\par  \tab \tab \tab \tab \tab \tab \tab (*End REPEAT *2* loop*)
+\par                         
+\par                         \tab \tab \tab \tab \tab \tab Out.Ln; Out.Ln;
+\par \pard \ri-1054\nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.String("The word you searched for was '");
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.String(searchWord); 
+\par \pard \fi720\li4320\nowidctlpar Out.String("' and it appeared ");
+\par \pard \nowidctlpar                          
+\par \pard \ri-964\nowidctlpar                         \tab \tab \tab \tab \tab \tab (*Differentiates between 1, 2 or more occurences*)
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab IF count = 1 THEN   
+\par                             \tab \tab \tab \tab \tab \tab \tab Out.String("once in the text.");
+\par                         \tab \tab \tab \tab \tab \tab ELSIF count = 2 THEN
+\par                             \tab \tab \tab \tab \tab \tab \tab Out.String("twice in the text.");
+\par                         \tab \tab \tab \tab \tab \tab ELSE
+\par                             \tab \tab \tab \tab \tab \tab \tab Out.Int(count, 3); 
+\par \pard \fi720\li5040\nowidctlpar Out.String(" times in the text");    
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab END; (*End IF loop*)
+\par                         
+\par                         \tab \tab \tab \tab \tab \tab Out.Ln; Out.Ln;
+\par \pard \ri-720\nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~\rdblquote );
+\par \pard \fi720\li4320\ri-720\nowidctlpar Out.String(\ldblquote ~~~~~~~~~~~~~~~~~~~~");
+\par \pard \ri-964\nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~~\rdblquote );
+\par \pard \li5040\ri-334\nowidctlpar\tx8280 Out.String(\ldblquote ~~~~~~~~~~~~~~~~~~~~");
+\par \pard \fi720\li4320\nowidctlpar Out.Ln;Out.Ln;
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab (*Exit out of REPEAT *1* loop*)
+\par                         \tab \tab \tab \tab \tab \tab fail := 1;
+\par                                         
+\par                     \tab \tab \tab \tab \tab ELSE
+\par \pard \ri-720\nowidctlpar                         \tab \tab \tab \tab \tab \tab (*When word is not in the file this section 
+\par \pard \li5040\ri-720\nowidctlpar allows user to search again or quit the wordsearch*)
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.Ln; Out.Ln;
+\par \pard \ri-1684\nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.String("The word you searched for was not in the text."); 
+\par \pard \fi720\li4320\ri-810\nowidctlpar Out.Ln;
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.String("Do you want to try again?
+\par \pard \ri-1144\nowidctlpar  \tab \tab \tab \tab \tab \tab \tab \tab \tab Please type 'y' or 'n' and enter.");
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab In.String(searchAnswer);
+\par \pard \ri-964\nowidctlpar                         
+\par \pard \ri-1324\nowidctlpar                         \tab \tab \tab \tab \tab \tab IF (searchAnswer = 'y') OR (searchAnswer = 'Y') THEN 
+\par \pard \ri-1414\nowidctlpar                             \tab \tab \tab \tab \tab \tab \tab (*Keep looping around REPEAT *1* *)
+\par \pard \nowidctlpar                             \tab \tab \tab \tab \tab \tab \tab fail := 0;
+\par \pard \ri-1684\nowidctlpar                         \tab \tab \tab \tab \tab \tab ELSIF (searchAnswer = 'n') OR (searchAnswer = 'N') THEN
+\par \pard \ri-874\nowidctlpar                             \tab \tab \tab \tab \tab \tab \tab (*Exit out of REPEAT *1* loop*)
+\par \pard \nowidctlpar                             \tab \tab \tab \tab \tab \tab \tab fail := 1;
+\par                         \tab \tab \tab \tab \tab \tab ELSE
+\par                             \tab \tab \tab \tab \tab \tab \tab Out.Ln;
+\par \pard \ri-1684\nowidctlpar                             \tab \tab \tab \tab \tab \tab \tab Out.String("This isn't a valid reply, type 'y' to 
+\par \pard \fi720\li7200\ri-1684\nowidctlpar continue.");
+\par \pard \nowidctlpar                             
+\par                             \tab \tab \tab \tab \tab \tab \tab REPEAT
+\par \pard \ri-1414\nowidctlpar                                 \tab \tab \tab \tab \tab \tab \tab In.String(searchAnswer)    
+\par \pard \ri-1774\nowidctlpar                             \tab \tab \tab \tab \tab \tab \tab UNTIL ((searchAnswer = 'y') OR (searchAnswer = 
+\par \pard \li8640\ri-908\nowidctlpar 'Y')); 
+\par \pard \nowidctlpar                             
+\par                         \tab \tab \tab \tab \tab \tab END; (*End embedded IF loop*)
+\par                         
+\par                         \tab \tab \tab \tab \tab \tab Out.Ln; Out.Ln;
+\par                         \tab \tab \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~~\rdblquote ); 
+\par \pard \fi720\li4320\ri-694\nowidctlpar Out.String(\ldblquote ~~~~~~~~~~~~~~~~~~~~");
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.String("~~~~~~~~~~~~~~~~~~\rdblquote ); 
+\par \pard \fi720\li4320\ri-964\nowidctlpar Out.String(\ldblquote ~~~~~~~~~~~~~~~~~~~~~~");
+\par \pard \nowidctlpar                         \tab \tab \tab \tab \tab \tab Out.Ln;Out.Ln;
+\par                          
+\par                     \tab \tab \tab \tab \tab END; (*End 2nd Inner IF loop*)
+\par                     
+\par                 \tab \tab \tab \tab UNTIL fail = 1; (*End REPEAT *1* loop *)
+\par                 
+\par                 \tab \tab \tab \tab (*Reset the First REPEAT variable*)
+\par                 \tab \tab \tab \tab run := 0;
+\par                 
+\par             \tab \tab \tab \tab ELSIF (option = 'a') OR (option = 'A') THEN
+\par                 \tab \tab \tab \tab F.Close(handle);
+\par                 \tab \tab \tab \tab IF ~L.IsEmpty(wordList) THEN
+\par                     \tab \tab \tab \tab \tab DISPOSE(wordList);
+\par                 \tab \tab \tab \tab END;
+\par                 \tab \tab \tab \tab run := 1;
+\par             \tab \tab \tab \tab END; (*End Inner IF loop*)
+\par             
+\par         \tab \tab \tab END; (*End IF Loop*)
+\par 
+\par \tab \tab UNTIL ((run = 1) OR ((option ='q') OR (option = 'Q'))); (*End of 'option' REPEAT*)
+\par       \tab UNTIL (option = 'q') OR (option = 'Q'); (*End of First REPEAT Loop*)  
+\par 
+\par     \tab Out.String("Thank you for using CONCORDANCE 2000.");
+\par     \tab Out.Ln; Out.String("Have a nice day!"); Out.Ln;
+\par     \tab Out.String("To clear this screen please click on the 'EXIT' button"); Out.Ln; Out.Ln;
+\par     \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+\par     \tab Out.String("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");Out.Ln;Out.Ln;
+\par  
+\par END ProgMain;
+\par END Words.
+\par {\fs22 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \nowidctlpar\box\brdrs\brdrw15\brsp20 \shading2000 {\fs22 8.0 CONCLUSION}
+\par \pard\plain \s19\qj\nowidctlpar\tx0 \f4\fs22\lang1024 
+\par \pard\plain \qj\nowidctlpar \f4\fs20\lang2057 {\fs22 
+Looking back at the progress of this exercise I feel that the final solution is what I had in mind from the start. Generally the project went smoothly with no major problems and I am pleased with the final result. The program ap
+pears to be very robust and stood up to rigorous testing (but we all know the dangers of a programmer testing his or her own work). I am particularly pleased with the inclusion of a small help file to assist first time users of the program.
+\par 
+\par However one of the main difficulties encountered and overcome, occurred during the final programming was how to repeat the program to allow the user to enter another filename followed by the options available. The solution involved setting up program vari
+ables that chan
+ged whether or not a repeat loop was entered into. Another problem occurred during the implementation of the list module. As the head procedure had to return an array, a function was not capable of doing this so it had to be changed to a proper procedure.
+
+\par 
+\par There are a couple of things that I am not fully satisfied with and would change if I were to do this exercise again. Firstly the choice of single letters to denote the options could have been more thought out. As they stand, three of the options appear t
+ogether on the keyboard layout. For a program like this it can be a mere annoyance to type the wrong letter but if this was a piece of safety critical software, the implications could be enormous.
+\par 
+\par Secondly, I feel that the choice of display could have been better. The In/Out screen just dumps the text onto the screen and the user has to scroll up to look at the concordance of a large file. I experimented with various methods to control of the outpu
+t but time pressures prevented me from finishing this.
+\par 
+\par }}

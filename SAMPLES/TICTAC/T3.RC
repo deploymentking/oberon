@@ -1,0 +1,92 @@
+DEFINITION resource;
+
+INCLUDE "c:\pow\src\WINDOWS.MOD"
+INCLUDE "T3.MOD"
+
+
+RESOURCE
+
+ICON T3Icon "T3.ICO"
+ICON T3Cursor "RING.CUR"
+
+MENU T3Menu 
+  POPUP "&Game"
+    MENUITEM "&New", IDM_GAMENEW
+    MENUITEM "E&xit", IDM_GAMEEXIT
+  END
+  POPUP "&Help"
+    MENUITEM "&About T3!...", IDM_ABOUT
+  END
+END
+
+DIALOG AboutBox
+  22, 17, 144, 75
+  STYLE DS_MODALFRAME OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "About T3!"
+  FONT 15, "Arial"
+BEGIN
+  CTEXT "Tom´s T3!",    -1,  0,  5, 144,  8
+  CTEXT "(c) 1996",       -1,  0, 14, 144,  8
+  CTEXT "Version 1.00",          -1,  0, 34, 144,  8
+  DEFPUSHBUTTON "OK",         IDOK, 53, 50,  32, 14, WS_GROUP
+END
+
+DIALOG NewGameBox
+  22, 17, 144, 75
+  STYLE DS_MODALFRAME OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "T3!   New Game?"
+  FONT 15, "Arial"
+BEGIN
+  CTEXT "Abandon Game?",    -1,  0,  5, 144,  8
+  DEFPUSHBUTTON "YES",         IDYES, 53, 20,  32, 14, WS_GROUP
+  DEFPUSHBUTTON "NO",         IDNO, 53, 50,  32, 14, WS_GROUP
+END
+
+DIALOG RemisBox
+  22, 17, 144, 75
+  STYLE DS_MODALFRAME OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "T3!   Play again?"
+  FONT 15, "Arial"
+BEGIN
+  CTEXT "R E M I S",    -1,  0,  5, 144,  8
+  CTEXT "Play again?",       -1,  0, 14, 144,  8
+  DEFPUSHBUTTON "YES",         IDYES, 16, 50,  32, 14, WS_GROUP
+  DEFPUSHBUTTON "EXIT GAME",         IDABORT, 64, 50,  64, 14, WS_GROUP
+END
+
+DIALOG IWonBox
+  22, 17, 144, 75
+  STYLE DS_MODALFRAME OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "T3!   Play again?"
+  FONT 15, "Arial"
+BEGIN
+  CTEXT "HEHEHE! I WON!",    -1,  0,  5, 144,  8
+  CTEXT "Play again?",       -1,  0, 14, 144,  8
+  DEFPUSHBUTTON "YES",         IDYES, 16, 50,  32, 14, WS_GROUP
+  DEFPUSHBUTTON "EXIT GAME",         IDABORT, 64, 50,  64, 14, WS_GROUP
+END
+
+DIALOG YouWonBox
+  22, 17, 144, 75
+  STYLE DS_MODALFRAME OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "T3!   Play again?"
+  FONT 15, "Arial"
+BEGIN
+  CTEXT "CONGRATULATIONS! YOU WON!",    -1,  0,  5, 144,  8
+  CTEXT "Play again?",       -1,  0, 14, 144,  8
+  DEFPUSHBUTTON "YES",         IDYES, 16, 50,  32, 14, WS_GROUP
+  DEFPUSHBUTTON "EXIT GAME",         IDABORT, 64, 50,  64, 14, WS_GROUP
+END
+
+DIALOG ExitGameBox
+  22, 17, 144, 75
+  STYLE DS_MODALFRAME OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "T3!   Exit Game"
+  FONT 15, "Arial"
+BEGIN
+  CTEXT "EXIT GAME",    -1,  0,  5, 144,  8
+  CTEXT "Abandon Game?",       -1,  0, 14, 144,  8
+  DEFPUSHBUTTON "EXIT GAME", IDABORT, 16, 50,  64, 14, WS_GROUP
+  DEFPUSHBUTTON "NO",           IDNO, 96, 50,  32, 14, WS_GROUP
+END
+END resource.

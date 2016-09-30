@@ -1,0 +1,13 @@
+
+You must design and implement a program that can read in a text file and build in a text concordance of of all the different words in the text. The name of the file must be provided by the user. The concordance must also provide the number of times that the word appears in the text. 
+
+The user must be able to view either the whole concordance or search the file for a given word and obtain specific information about the number of occurences of that word in the text. There should be a suitable interface between the program and the user.
+
+It has been decided that an Ordered List data abstraction is required. This allows the words of a text file to be stored alphabetically. As the file may vary in size, the size of the concordance will not be known in advance. Therefore a dynamic data structure will be required.
+
+The operations of the data abstraction Ordered List have been defined in section 4.2. The implementation of this abstraction must therefore follow these specifications closely. An analysis of the solution to this problem (see section 3.2) shows that the operations contained within Ordered List are sufficient to solve the concordance problem.
+
+7
+
+
+

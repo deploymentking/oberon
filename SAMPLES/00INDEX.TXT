@@ -1,0 +1,26 @@
+This directory contains a few Windows programming examples, which
+are directly based on the Windows API and do not rely on a library
+for handling the user interface. Most of them were written
+by students as part of programming courses. Some of the examples (in
+the directory demo) were used as introductory examples in these courses. 
+
+Contents
+========
+
+BJ        a nice Black Jack game, uses sound and Ctl3D effects 
+          (German)
+BOUNCING  Bouncing Ball
+DEMOS     various small examples
+DUSTBIN   a nice Windows 95 like trash can with sound and 
+          drag and drop support
+          (only the comments are in German)
+EVENTMON  a very nice event monitor
+          (may not work with Windows 3.x!)
+MINIFRAC  a nice program for generating fractals
+          zoom in with the right mouse button
+          (German)
+SPY       displays messages sent to a window
+STATLINE  a status bar implemented as custom control
+          (German)
+TICTAC    a nice Tic-Tac-Toe game
+          (only the comments are in German)

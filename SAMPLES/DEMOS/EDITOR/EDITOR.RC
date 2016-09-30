@@ -1,0 +1,29 @@
+DEFINITION Editor;
+
+INCLUDE "editor.mod"
+
+RESOURCE
+
+  MENU Editor
+    POPUP "&File"
+      MENUITEM "&New", IDM_FILENEW
+      MENUITEM "&Open...", IDM_FILEOPEN
+      MENUITEM "&Save", IDM_FILESAVE
+      MENUITEM "Save &As...", IDM_FILESAVEAS
+      MENUITEM "&Close", IDM_FILECLOSE
+      MENUITEM "&Print", IDM_FILEPRINT
+      MENUITEM "&Exit", IDM_FILEEXIT
+    END
+    POPUP "&Edit"
+      MENUITEM "Cu&t", IDM_EDITCUT
+      MENUITEM "&Copy", IDM_EDITCOPY
+      MENUITEM "&Paste", IDM_EDITPASTE
+    END
+    POPUP "&Window"
+      MENUITEM "Tile &Horizontal", IDM_WINDOWTILEH
+      MENUITEM "Tile &Vertical", IDM_WINDOWTILEV
+      MENUITEM "&Cascade", IDM_WINDOWCASCADE
+    END
+  END
+
+END.

@@ -1,0 +1,9 @@
+[OPTIONS]
+CONTENTS=Dustbin
+TITLE=Dustbin Online-Hilfe
+COMPRESS=YES
+COPYRIGHT=(C) by Alexander Graf and Dietmar Schinnerl, 1996
+CITATION=(C) by Alexander Graf and Dietmar Schinnerl, 1996
+
+[FILES]
+DUSTBIN.RTF

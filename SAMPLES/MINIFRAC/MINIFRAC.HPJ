@@ -1,0 +1,16 @@
+; CWH.HPJ
+; Help project file for Creating Windows Help
+
+[OPTIONS]
+;CONTENTS=Main_toc
+TITLE=Minifrac
+;COMPRESS=NO
+COMPRESS=HIGH
+ERRORLOG=minifrac.err
+
+[CONFIG]
+;BrowseButtons()
+
+[FILES]
+MINIFRAC.RTF
+

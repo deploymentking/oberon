@@ -1,0 +1,29 @@
+DEFINITION MDI;
+
+INCLUDE "c:\pow\src\WINDOWS.MOD"
+INCLUDE "mdi.mod"
+
+RESOURCE
+
+MENU MainMenu
+  POPUP "&File"
+    MENUITEM "&New Window", IDM_NEW
+    MENUITEM "&Exit",       IDM_EXIT
+  END
+  POPUP "&Window"
+    MENUITEM "&Cascade",                 IDM_CASCADE
+    MENUITEM "Tile &horizontically",     IDM_TILE_H
+    MENUITEM "Tile &vertically",         IDM_TILE_V
+  END
+  POPUP "&Help"
+    MENUITEM "&About ...", IDM_ABOUT
+  END
+END
+
+MENU ChildMenu
+  POPUP "&Hallo"
+    MENUITEM "Test 1", 100
+  END
+END
+
+END MDI.

@@ -1,0 +1,31 @@
+DEFINITION Resourc1;
+
+INCLUDE "C:\POW\SRC\WINDOWS.MOD"
+INCLUDE "RESOURC1.MOD"
+
+RESOURCE
+
+ICON Icon "FIM.ICO"
+
+MENU MainMenu
+  POPUP "&File"
+    MENUITEM "&Exit", IDM_EXIT
+  END
+  POPUP "&About"
+    MENUITEM "&About ...", IDM_ABOUT
+  END
+END
+
+DIALOG About
+  0, 0, 187, 57
+  STYLE DS_MODALFRAME OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "About"
+  FONT 8, "MS Sans Serif"
+BEGIN
+  DEFPUSHBUTTON   "OK",IDOK,35,37,50,14
+  DEFPUSHBUTTON   "Cancel",IDCANCEL,101,37,50,14
+  CTEXT           "Resource - Ein einfaches Windowsprogramm, das die Verwendung von Ressourcen demonstriert.",
+                  -1,4,7,179,18
+END
+
+END Resourc1.

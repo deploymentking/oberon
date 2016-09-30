@@ -1,0 +1,97 @@
+(* ======================================================================== *)
+(* Projekt Minifrac                                                         *)
+(*                                                                          *)
+(* Fallstudie Betriebssysteme (Windowsprogrammierung unter Oberon-2         *)
+(*                                                                          *)
+(* Autoren:                                                                 *)
+(*          Richard Beitelmair   Matr.Nr.: 9155387 /880   SS1995            *)
+(*          Michael Trauner      Matr.Nr.: 9356714 /881   SS1996            *)
+(*          Peter   Winter       Matr.Nr.: 9355148 /881   SS1996            *)
+(*                                                                          *)
+(* LVA-Leiter:                                                              *)
+(*          Peter René Dietmüller, dietmueller@fim.uni-linz.ac.at           *)
+(*                                                                          *)
+(* Sprache:                                                                 *)
+(*          Pow! 3.0 beta                                                   *)
+(*          Oberon-2 Compiler Version 1.18 Beta5                            *)
+(*                                                                          *)
+(* Datum der letzten Aenderung: 30.09.1996                                  *)
+(* ------------------------------------------------------------------------ *)
+(* Ressource-File                                                           *)
+(*                                                                          *)
+(* ======================================================================== *)
+
+DEFINITION Minifrac;
+ 
+INCLUDE "c:\pow\src\WINDOWS.MOD"
+INCLUDE "minifrac.mod" 
+
+  
+RESOURCE
+
+ICON MinifracIcon "MINIFRAC.ICO"
+
+
+MENU MainMenu
+  POPUP "&Fraktale"
+    MENUITEM "&Neues Fenster", IDM_NEW
+    MENUITEM "&Schließen"    , IDM_EXIT
+  END
+  POPUP "&Berechnung"
+    MENUITEM "&Parameter"       , IDM_PARAMETER
+    MENUITEM "&Alles abbrechen" , IDM_STOPALL
+  END
+  POPUP "F&enster"
+    MENUITEM "&Kaskadieren"         , IDM_CASCADE
+    MENUITEM "&Horizontal anordnen" , IDM_TILE_H
+    MENUITEM "&Vertikal anordnen"   , IDM_TILE_V
+  END
+  POPUP "&Hilfe"
+    MENUITEM "&Index"   , IDM_HELP
+    MENUITEM "&Über..." , IDM_ABOUT
+  END
+END
+
+
+DIALOG About 0, 0, 200, 70
+  STYLE DS_MODALFRAME OR WS_POPUP OR WS_VISIBLE OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "Minifrac"
+  FONT 8, "MS Sans Serif"
+BEGIN
+   DEFPUSHBUTTON "Hallo", IDOK, 70, 50, 60, 14
+   CTEXT "Minifrac V2.00", DLGC_STATIC, 50, 10, 100, 18
+   CTEXT "(C) bei Michael Trauner und Peter Winter, 1996", DLGC_STATIC, 0, 29, 200, 8
+END
+
+
+DIALOG Param 30, 30, 70, 190
+  STYLE DS_MODALFRAME OR WS_POPUP OR WS_VISIBLE OR WS_CAPTION OR WS_SYSMENU
+  CAPTION "Minifrac Eingabe"
+  FONT 10, "MS Sans Serif"
+BEGIN 
+  CONTROL "Menge", ID_MENGE, "BUTTON", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 3, 3, 64, 34
+  CONTROL "Mandelbrot", ID_MANDEL, "BUTTON", BS_RADIOBUTTON OR WS_CHILD OR WS_VISIBLE OR WS_GROUP OR WS_TABSTOP, 7, 13, 47, 12
+  CONTROL "Julia", ID_JULIA, "BUTTON", BS_RADIOBUTTON OR WS_CHILD OR WS_VISIBLE OR WS_GROUP OR WS_TABSTOP, 7, 25, 34, 11
+  
+  CONTROL "Koordinaten", ID_MENGE, "BUTTON", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 3, 40, 64, 62
+  CTEXT "Xmin:", DLGC_STATIC,  8, 56, 19, 8
+  CTEXT "Xmax:", DLGC_STATIC,  8, 72, 19, 8
+  CTEXT "Ymitt:", DLGC_STATIC, 8, 88, 19, 8
+  CONTROL "", ID_XMIN, "EDIT", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 28, 56, 36, 12
+  CONTROL "", ID_XMAX, "EDIT", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 28, 72, 36, 12
+  CONTROL "", ID_YMED, "EDIT", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 28, 88, 36, 12
+
+  CONTROL "Konstanten", ID_KONSTANTE, "BUTTON", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 3, 105, 64, 45
+  CTEXT "Real:", DLGC_STATIC, 8, 121, 20, 8
+  CTEXT "Imag:", DLGC_STATIC, 8, 136, 20, 8
+  CONTROL "", ID_REAL, "EDIT", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 28, 121, 36, 12
+  CONTROL "", ID_IMAG, "EDIT", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 28, 136, 36, 12
+
+  CONTROL "Kontrollbuttons", ID_KONSTANTE, "BUTTON", BS_GROUPBOX OR WS_CHILD OR WS_VISIBLE, 3, 154, 64, 33
+  CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 4, 167, 31, 11
+  CONTROL "Abbruch", IDCANCEL, "BUTTON", BS_PUSHBUTTON OR WS_CHILD OR WS_VISIBLE OR WS_TABSTOP, 36, 167, 30, 11
+
+END
+                                                                  
+
+END Minifrac.
